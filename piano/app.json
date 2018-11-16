@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "Sea Star",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "backgroundColor":"black",
+    "color": "white",
+    "position": "bottom",
+    "selectedColor": "white",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath":"pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath":"pages/my/my",
+      "text": "我的"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text": "公告"
+    }]
+  }
+}
