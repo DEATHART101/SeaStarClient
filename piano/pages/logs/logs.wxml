@@ -3,4 +3,6 @@
   <block wx:for-items="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
+  <button class="loginBtn" bindtap="loginBtn">登录</button>
 </view>
+

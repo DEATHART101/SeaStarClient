@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    motto: '00wechat',
+    motto: 'Sea Star',
     userInfo: {}
   },
   //事件处理函数

@@ -1,0 +1,25 @@
+<view class="itemView" style="margin-top:20px">学号/教师工号:
+  <input class="input" name="username" placeholder="请输入学号/教室工号" 
+  bindinput="usernameInput"/>
+</view>
+<view class="itemView" style="margin-top:20px">密码:
+  <input class="input" name="password" placeholder="请输入密码" 
+  bindinput="passwordInput"/>
+</view>
+
+<view class="btnView">
+  <button class="login_btn" bindtap="login_btn_click">登录</button>
+  <button class="delete_btn" bindtap="delete_btn_click">删除</button>
+</view>
+
+<view>{{username}}</view>
+<view>{{password}}</view>
+
+<modal hidden="{{modalHidden}}" title="请输入用户名和密码" confirm-text="确定" 
+ cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+</modal>
+
+
+
+
+

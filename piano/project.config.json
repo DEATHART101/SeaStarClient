@@ -12,9 +12,9 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wx8fd82fae51c490fc",
-	"projectname": "SeaStar",
+	"libVersion": "2.4.0",
+	"appid": "wx5889690405ecf31a",
+	"projectname": "piano",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

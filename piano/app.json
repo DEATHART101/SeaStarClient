@@ -2,29 +2,38 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/my/my"
+    "pages/notice/notice",
+    "pages/login/login",
+    "pages/THUlogin/THUlogin",
+    "pages/outlogin/outlogin"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "black",
+    "navigationBarBackgroundColor": "#000000",
     "navigationBarTitleText": "Sea Star",
     "navigationBarTextStyle":"white"
   },
   "tabBar":{
-    "backgroundColor":"black",
-    "color": "white",
+    "backgroundColor":"white",
+    "color": "black",
     "position": "bottom",
-    "selectedColor": "white",
+    "selectedColor": "black",
     "borderStyle": "black",
     "list": [{
       "pagePath":"pages/index/index",
-      "text": "首页"
-    },{
-      "pagePath":"pages/my/my",
-      "text": "我的"
+      "text": "首页",
+      "iconPath": "images/main.png",
+      "selectedIconPath": "images/main.png"
     },{
       "pagePath":"pages/logs/logs",
-      "text": "公告"
+      "text": "我的",
+      "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine.png"
+    },{
+      "pagePath":"pages/notice/notice",
+      "text": "公告",
+      "iconPath": "images/notice.png",
+      "selectedIconPath": "images/notice.png"
     }]
   }
 }

@@ -6,3 +6,9 @@
 .log-item {
   margin: 10rpx;
 }
+.loginBtn {
+  float: center;
+  margin-top:80px;
+  width:60%;
+  font-size: 20px;
+}
