@@ -1,5 +1,5 @@
 /**index.wxss**/
-.userinfo {
+/**.userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +18,59 @@
 
 .usermotto {
   margin-top: 200px;
+}**/
+
+.image {
+  width: 100%;
+  height: 600rpx;
+  display: top;
 }
+
+/*.piano_message_btn {
+  top: 60rpx;
+  width: 100%;
+  height: 100%;
+}*/
+/*首页中琴房信息按钮*/
+.piano_message_btn {
+  top: 60rpx;
+  width: 30%;
+  height: 110rpx;
+  color: #D3D3D3;
+  padding: 0;
+  border: none;
+}
+.btn_image0 {
+  margin-top: 25rpx;
+  width: 60%;
+  height: 60%;
+}
+.piano_message {
+  width: 100%;
+  text-align: center;
+  margin-top: 60rpx;
+}
+
+/*首页中琴房预约按钮*/
+.piano_order_btn {
+  top: 80rpx;
+  width: 30%;
+  height: 110rpx;
+  color: #D3D3D3;
+  padding: 0;
+  border: none;
+}
+.btn_image0 {
+  margin-top: 25rpx;
+  width: 60%;
+  height: 60%;
+}
+.piano_order {
+  width: 100%;
+  text-align: center;
+  margin-top: 80rpx;
+}
+
+
+
+

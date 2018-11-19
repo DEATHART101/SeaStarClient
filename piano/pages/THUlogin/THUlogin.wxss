@@ -3,22 +3,22 @@
 input{
     width: 60%;
     margin-left:10%;
-    border: 5px solid gray;
-    font-size: 15px;
+    border: 5rpx solid gray;
+    font-size: 15rpx;
 }
 
 .login_btn{
-    margin-left:30px;
-    margin-top:50px;
+    margin-left:30rpx;
+    margin-top:50rpx;
     width:15%;
-    font-size: 15px;
+    font-size: 15rpx;
     float:left;
 }
 .delete_btn{
-    margin-left:50px;
-    margin-top:50px;
+    margin-left:50rpx;
+    margin-top:50rpx;
     width:15%;
-    font-size: 15px;
+    font-size: 15rpx;
     float:left;
 }
 

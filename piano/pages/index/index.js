@@ -2,10 +2,10 @@
 //获取应用实例
 var app = getApp()
 Page({
-  data: {
-    motto: 'Sea Star',
-    userInfo: {}
-  },
+  //data: {
+    //motto: 'Sea Star',
+    //userInfo: {}
+  //},
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
@@ -22,6 +22,16 @@ Page({
         userInfo:userInfo
       })
       that.update()
-    })
-  }
+    }) 
+  },
+
+  //点击首页中“琴房信息”和“琴房预约”两个按钮，事件处理函数
+  //琴房信息按钮
+  PianoMessage: function() {
+
+  },
+  //琴房预约按钮
+  PianoOrder: function() {
+
+  },
 })

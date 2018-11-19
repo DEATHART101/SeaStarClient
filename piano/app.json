@@ -10,30 +10,30 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000000",
-    "navigationBarTitleText": "Sea Star",
+    "navigationBarTitleText": "海星预约",
     "navigationBarTextStyle":"white"
   },
   "tabBar":{
-    "backgroundColor":"white",
-    "color": "black",
+    "backgroundColor":"#000000",
+    "color": "#FFFFFF",
     "position": "bottom",
-    "selectedColor": "black",
+    "selectedColor": "#FFFFFF",
     "borderStyle": "black",
     "list": [{
       "pagePath":"pages/index/index",
       "text": "首页",
-      "iconPath": "images/main.png",
-      "selectedIconPath": "images/main.png"
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_selected.png"
     },{
       "pagePath":"pages/logs/logs",
       "text": "我的",
-      "iconPath": "images/mine.png",
-      "selectedIconPath": "images/mine.png"
+      "iconPath": "images/me.png",
+      "selectedIconPath": "images/me_selected.png"
     },{
       "pagePath":"pages/notice/notice",
       "text": "公告",
-      "iconPath": "images/notice.png",
-      "selectedIconPath": "images/notice.png"
+      "iconPath": "images/remind.png",
+      "selectedIconPath": "images/remind_selected.png"
     }]
   }
 }
