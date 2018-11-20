@@ -18,12 +18,17 @@ Page({
           password:e.detail.value
       })
   },
-  login_btn_click:function(){
+  /*login_btn_click:function(){
       if(this.data.username.length==0 || this.data.password.length==0){
           this.setData({
             modalHidden:!this.data.modalHidden
         })
       }
+  },*/
+  login_btn_click:function(){
+    wx.navigateTo({
+      url:'../index/PianoOrder'
+    })
   },
   confirm:function(){
       this.setData({

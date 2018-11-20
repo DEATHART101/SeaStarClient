@@ -1,0 +1,15 @@
+1.pages/index:“首页”(包括琴房信息，琴房预约按钮)
+
+2.pages/logs:“我的”（包括登录按钮）
+
+3.pages/login:选择身份登录按钮（两个按钮）
+
+4.pages/notice:“公告”
+
+5.pages/OthersOrder:普通用户预约
+
+6.pages/THUteamOrder:清华特殊团体预约
+
+7.pages/THUlogin:清华校内师生登录
+
+8.pages/outlogin:校外人员登录

@@ -1,0 +1,22 @@
+/* pages/index/PianoOrder.wxss */
+.THU_team_order_btn {
+    float: center;
+    margin-top:170rpx;
+    width:90%;
+    background-color: #DCDCDC;
+    font-size: 30rpx;
+}
+
+.others_order_btn {
+    float: center;
+    margin-top:150rpx;
+    width:90%;
+    background-color: #DCDCDC;
+    font-size: 30rpx;
+}
+
+.image {
+  width: 100%;
+  height: 600rpx;
+  display: top;
+}

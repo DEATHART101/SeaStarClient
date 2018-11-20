@@ -1,2 +1,6 @@
+<view class="image">
+  <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
+</view>
+
 <button class="THUlogin_btn" bindtap="THUloginBtn">校内师生登录</button>
 <button class="outlogin_btn" bindtap="outloginBtn">校外人员登录</button>

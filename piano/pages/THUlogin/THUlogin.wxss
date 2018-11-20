@@ -1,4 +1,9 @@
 /* pages/THUlogin/THUlogin.wxss */
+.image {
+  width: 100%;
+  height: 600rpx;
+  display: top;
+}
 
 input{
     width: 60%;

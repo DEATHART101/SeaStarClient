@@ -1,0 +1,6 @@
+<view class="image">
+  <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
+</view>
+
+<button class="THU_team_order_btn" bindtap="THU_team_order">清华校内特殊团体预约通道</button>
+<button class="others_order_btn" bindtap="others_order">普通用户预约通道</button>

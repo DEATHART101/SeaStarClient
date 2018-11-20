@@ -1,4 +1,8 @@
 <!--logs.wxml-->
+<view class="image">
+  <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
+</view>
+
 <view class="container log-list">
   <block wx:for-items="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>

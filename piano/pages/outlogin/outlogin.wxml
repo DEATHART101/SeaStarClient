@@ -1,3 +1,7 @@
+<view class="image">
+  <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
+</view>
+
 <view class="itemView" style="margin-top:20px">姓名:
   <input class="input" name="username" placeholder="请输入姓名" 
   bindinput="usernameInput"/>

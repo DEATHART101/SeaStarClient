@@ -5,17 +5,18 @@
 <view class='list'>
   <block wx:for='{{dataList}}' wx:key='list' wx:for-item="item">
   <view class="list_item">
-      <!--<navigator url='details?id={{item.piano_id}}'>-->
+      <navigator url='details?id={{item.piano_id}}'>
       <view class='img'>
         <image src="{{imghref}}{{item.piano_img}}"  mode="scaleToFill"/>
       </view>
       <view class='piano_info'>
-        <view class='title'>{{item.notice_title}}</view>
-        <view class='content'>{{item.notice_content}}</view>
-        <view class='name'>{{item.notice_name}}</view>
-        <view class='time'>{{item.notice_time}}</view>
+        <view class='title'>{{item.piano_title}}</view>
+        <view class='price'>￥{{item.piano_price}}/h</view>
+        <view class='state'>{{item.piano_state}}</view>
+        <view class='time'>{{item.piano_time}}</view>
+        <button class='btn' bindtap="order_btn">预约</button>
       </view>
-      <!-- </navigator>-->
+       </navigator>
       <view class='clear'></view>
   </view>
   </block>
