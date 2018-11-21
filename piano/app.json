@@ -9,7 +9,8 @@
     "pages/index/PianoOrder",
     "pages/index/PianoMessage",
     "pages/THUteamOrder/THUteamOrder",
-    "pages/OthersOrder/OthersOrder"
+    "pages/OthersOrder/OthersOrder",
+    "pages/LoginOk/LoginOk"
   ],
   "window":{
     "backgroundTextStyle":"light",

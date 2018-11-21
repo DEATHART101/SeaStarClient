@@ -13,3 +13,5 @@
 7.pages/THUlogin:清华校内师生登录
 
 8.pages/outlogin:校外人员登录
+
+9.pages/LoginOk:显示用户信息

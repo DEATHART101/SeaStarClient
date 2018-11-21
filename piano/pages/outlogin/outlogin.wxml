@@ -23,6 +23,6 @@
 <view>{{username}}</view>
 <view>{{password}}</view>
 
-<modal hidden="{{modalHidden}}" title="请输入用户名和密码" confirm-text="确定" 
+<!--<modal hidden="{{modalHidden}}" title="请输入用户名和密码" confirm-text="确定" 
  cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
-</modal>
+</modal>-->

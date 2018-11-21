@@ -27,10 +27,10 @@ Page({
   },*/
   login_btn_click:function(){
       wx.navigateTo({
-      url:'../index/PianoOrder'
+      url:'../LoginOk/LoginOk'
     })
   },
-  confirm:function(){
+  /*confirm:function(){
       this.setData({
             modalHidden:!this.data.modalHidden,
             show:!this.data.show,
@@ -41,5 +41,5 @@ Page({
       this.setData({
             modalHidden:!this.data.modalHidden
       })
-  }
+  }*/
 })
