@@ -5,7 +5,8 @@
             "name": "调试微信小程序",
             "type": "weapp",
             "request": "launch",
-            "project": "${workspaceRoot}"
+            "project": "${workspaceRoot}",
+            "weixinDevTools": "D:/DevelopingTools/IDEs/WeChatDK"
         }
     ]
 }

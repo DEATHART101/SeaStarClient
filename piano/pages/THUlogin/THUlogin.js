@@ -26,10 +26,37 @@ Page({
       }
   },*/
   login_btn_click:function(){
-      wx.navigateTo({
+    /*
+    wx.navigateTo({
       url:'../index/PianoOrder'
     })
+    */
+
+    let bind_info = {};
+    bind_info.student_id = this.data.username;
+    bind_info.password = this.data.password;
+    let status = app.starBind(1, bind_info); 
+    switch (status)
+    {
+      case 1:
+      {
+        wx.navigateTo({
+          url: '../index/PianoOrder'
+        })
+      }
+      break;
+      case 2:
+      {
+        console.log("绑定失败！");
+        wx.navigateTo({
+          url: '../index/PianoOrder'
+        })
+      }
+      break;
+      default:
+    }
   },
+
   confirm:function(){
       this.setData({
             modalHidden:!this.data.modalHidden,
