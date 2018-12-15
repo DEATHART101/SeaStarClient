@@ -13,8 +13,8 @@
   <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
 </view>
 
-<!--<view class="piano_message_btn">-->
 <!--首页中两个按钮-->
+<!--
  <button class="piano_message_btn" bindtap="PianoMessage"><image class="btn_image0" src='../../images/piano_message.png'>
  </image></button>
  <view class="piano_message">琴房信息</view>
@@ -22,7 +22,21 @@
  <button class="piano_order_btn" bindtap="PianoOrder"><image class="btn_image0" src='../../images/order.png'>
  </image></button>
  <view class="piano_order">琴房预约</view>
+ -->
+
+<view class="btn">
+  <button bindtap="scan" bindtap="PianoMessage">
+	  <image src="../../images/piano_message.png"></image>琴房信息
+	</button>
+</view>
+<view class="btn">
+	<button bindtap="PianoOrder">
+	  <image src="../../images/order.png"></image>琴房预约
+	</button>
+</view>
  
+
+
  
 
 

@@ -1,12 +1,46 @@
 <!--logs.wxml-->
-<view class="image">
-  <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
+
+<!--点击登录就可以跳转到选择不同身份登录界面-->
+<view class="user_login">
+  <image src="/images/login_white.png" class = "user_login_image" bindtap="loginBtn">
+  </image>
 </view>
 
-<view class="container log-list">
-  <block wx:for-items="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
-  <button class="loginBtn" bindtap="loginBtn">登录</button>
-</view>
+<!--其余按钮-->
+<view class="info">
+      <view class="info-btn my_info" bindtap="my_info_btn">
+        <image src="/images/my/my_message.png" class="my_info" ></image>
+        <view class="title">我的信息</view>
+      </view>
+    
+      <view class="info-btn modify" bindtap="modify_info_btn">
+        <image src="/images/my/modify_message.png" class="modify"></image>
+        <view class="title">修改信息</view>
+      </view>
+    
+    
+      <view class="info-btn now_order" bindtap="now_order_btn">
+        <image src="/images/my/now_order.png" class = "now_order" ></image>
+        <view class="title">当前预约</view>
+      </view>
+
+      <view class="info-btn previous_order" bindtap="previous_order_btn">
+        <image src="/images/my/previous_order.png" class = "previous_order" ></image>
+        <view class="title">历史预约</view>
+      </view>
+
+      <view class="info-btn notify" bindtap="notify_btn">
+        <image src="/images/my/notify.png" class = "notify" ></image>
+        <view class="title">系统通知</view>
+      </view>
+
+      <view class="info-btn longtime_order" bindtap="longtime_order_btn">
+        <image src="/images/my/longtime_order.png" class = "longtime_order" ></image>
+        <view class="title">长期预约</view>
+      </view>
+   
+  </view>
+
+
+
 

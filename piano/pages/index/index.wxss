@@ -22,19 +22,15 @@
 
 .image {
   width: 100%;
-  height: 600rpx;
+  height: 400rpx;
   display: top;
 }
 
+
+/*首页中琴房信息按钮*/
 /*.piano_message_btn {
   top: 60rpx;
-  width: 100%;
-  height: 100%;
-}*/
-/*首页中琴房信息按钮*/
-.piano_message_btn {
-  top: 60rpx;
-  width: 30%;
+  width: 75%;
   height: 110rpx;
   color: #D3D3D3;
   padding: 0;
@@ -52,7 +48,7 @@
 }
 
 /*首页中琴房预约按钮*/
-.piano_order_btn {
+/*.piano_order_btn {
   top: 80rpx;
   width: 30%;
   height: 110rpx;
@@ -69,6 +65,20 @@
   width: 100%;
   text-align: center;
   margin-top: 80rpx;
+}*/
+
+.btn button {
+  width: 70%;
+  top: 150rpx;
+  margin-bottom: 100rpx;
+}
+
+.btn image {
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  margin-right: 50rpx;
+  vertical-align: middle;
 }
 
 
