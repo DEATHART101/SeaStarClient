@@ -26,60 +26,64 @@
   display: top;
 }
 
-
-/*首页中琴房信息按钮*/
-/*.piano_message_btn {
-  top: 60rpx;
-  width: 75%;
-  height: 110rpx;
-  color: #D3D3D3;
-  padding: 0;
-  border: none;
-}
-.btn_image0 {
-  margin-top: 25rpx;
-  width: 60%;
-  height: 60%;
-}
-.piano_message {
+.item {
   width: 100%;
-  text-align: center;
-  margin-top: 60rpx;
+  margin-top: 100rpx;
+  height: 70rpx;
+  
+  background:#FFFFFF;
+  /*align-items: center;*/
+  vertical-align: middle;
+  display: flex;
+  border-top: 2rpx solid #DCDCDC;
+  border-bottom: 2rpx solid #DCDCDC;
 }
 
-/*首页中琴房预约按钮*/
-/*.piano_order_btn {
-  top: 80rpx;
-  width: 30%;
-  height: 110rpx;
-  color: #D3D3D3;
-  padding: 0;
-  border: none;
-}
-.btn_image0 {
-  margin-top: 25rpx;
-  width: 60%;
-  height: 60%;
-}
-.piano_order {
+.item1 {
   width: 100%;
-  text-align: center;
-  margin-top: 80rpx;
-}*/
-
-.btn button {
-  width: 70%;
-  top: 150rpx;
-  margin-bottom: 100rpx;
+  margin-top: 100rpx;
+  height: 70rpx;
+  background:#FFFFFF;
+  /*align-items: center;*/
+  vertical-align: middle;
+  display: flex;
+  border-top: 2rpx solid #DCDCDC;
+  border-bottom: 2rpx solid #DCDCDC;
 }
 
-.btn image {
-  width: 50rpx;
-  height: 50rpx;
-  display: inline-block;
-  margin-right: 50rpx;
+.item2 {
+  width: 100%;
+  margin-top: 10rpx;
+  height: 70rpx;
+  background:#FFFFFF;
+  /*align-items: center;*/
+  vertical-align: middle;
+  display: flex;
+  border-top: 2rpx solid #DCDCDC;
+  border-bottom: 2rpx solid #DCDCDC;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  /*display: inline-block;*/
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
   vertical-align: middle;
 }
+
+.title {
+  color:#000000;
+  vertical-align: middle;
+  width: 80%;
+  font-size:35rpx;
+  padding-top: 2%;
+}
+
+
+
+
 
 
 

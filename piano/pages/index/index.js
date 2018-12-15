@@ -33,9 +33,14 @@ Page({
     })
   },
   //琴房预约按钮
-  PianoOrder: function() {
+  PianoOrder_team: function() {
     wx.navigateTo({
-      url:'../index/PianoOrder'
+      url: '../THUteamOrder/THUteamOrder'
+    })
+  },
+  PianoOrder_user: function () {
+    wx.navigateTo({
+      url: '../OthersOrder/OthersOrder'
     })
   },
 })

@@ -14,26 +14,28 @@
 </view>
 
 <!--首页中两个按钮-->
-<!--
- <button class="piano_message_btn" bindtap="PianoMessage"><image class="btn_image0" src='../../images/piano_message.png'>
- </image></button>
- <view class="piano_message">琴房信息</view>
 
- <button class="piano_order_btn" bindtap="PianoOrder"><image class="btn_image0" src='../../images/order.png'>
- </image></button>
- <view class="piano_order">琴房预约</view>
- -->
 
-<view class="btn">
-  <button bindtap="scan" bindtap="PianoMessage">
-	  <image src="../../images/piano_message.png"></image>琴房信息
-	</button>
+<view class="item" bindtap="PianoMessage">
+	<image src="../../images/piano_message.png" class="icon"></image>
+  <text class="title">琴房信息</text>
+  <image src="../../images/open.png" class="icon"></image>
 </view>
-<view class="btn">
-	<button bindtap="PianoOrder">
-	  <image src="../../images/order.png"></image>琴房预约
-	</button>
+
+
+<view class="item1" bindtap="PianoOrder_team">
+	<image src="../../images/order.png" class="icon"></image>
+  <text class="title">THU校队琴房预约</text>
+  <image src="../../images/open.png" class="icon"></image>
 </view>
+
+
+<view class="item2" bindtap="PianoOrder_user">
+	<image src="../../images/order.png" class="icon"></image>
+  <text class="title">普通用户琴房预约</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
+
  
 
 
