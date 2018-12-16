@@ -30,8 +30,8 @@
       </view>
 
       <view class="info-btn info_image" bindtap="notify_btn">
-        <image src="/images/my/notify.png" class = "info_image" ></image>
-        <view class="title">系统通知</view>
+        <image src="/images/dingdan.png" class = "info_image" ></image>
+        <view class="title">我的订单</view>
       </view>
 
       <view class="info-btn info_image" bindtap="longtime_order_btn">
