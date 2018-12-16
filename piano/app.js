@@ -9,23 +9,27 @@ App({
   },
 
   getSStarID: function () {
+    console.log('Connecting to Wechat server...');
     wx.login(
       {
         success(res) 
         {
+          console.log('Wechat server connected.');
+          console.log('Connecting to worker server...');
           if (res.code) 
           {
             //发起网络请求
             wx.request(
               {
                 url: 'https://747709.iterator-traits.com/api/user/login/',
-                method: 'POST',
+                method: 'GET',
                 data: 
                 {
                   code: res.code,
                 },
                 success(res)
                 {
+                  console.log('Worker server conneted.');
                   let rj = res.data.return_json;
                   switch (res.data.status_code)
                   {
@@ -70,7 +74,7 @@ App({
     wx.request(
       {
         url: 'https://747709.iterator-traits.com/api/user/bind/',
-        method: 'GET',
+        method: 'POST',
         data:
         {
           sstar_id: this.globalData.sstar_id,
