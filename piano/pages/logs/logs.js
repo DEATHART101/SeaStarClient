@@ -13,7 +13,7 @@ Page({
   //跳转到选择登录方式界面
   loginBtn: function(options){
     wx.navigateTo({
-      url:'../outlogin/outlogin'
+      url:'../login/login'
     })
   },
 

@@ -30,16 +30,5 @@ Page({
       url:'../LoginOk/LoginOk'
     })
   },
-  /*confirm:function(){
-      this.setData({
-            modalHidden:!this.data.modalHidden,
-            show:!this.data.show,
-            buttonDisabled:!this.data.modalHidden
-      })
-  },
-  cancel:function(){
-      this.setData({
-            modalHidden:!this.data.modalHidden
-      })
-  }*/
+  
 })
