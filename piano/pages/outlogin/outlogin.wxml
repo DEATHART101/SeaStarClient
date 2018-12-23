@@ -2,27 +2,27 @@
   <image class="image" src="/images/background0.jpg" mode="aspectFill"></image>
 </view>
 
-<view class="itemView" style="margin-top:20px">姓名:
-  <input class="input" name="username" placeholder="请输入姓名" 
+<view class="item">
+  <image src="/images/ID.png" class="icon"></image>
+	<input class="input" name="username" placeholder="请输入姓名" 
   bindinput="usernameInput"/>
 </view>
-<view class="itemView" style="margin-top:20px">证件号:
-  <input class="input" name="password" placeholder="请输入证件号" 
+
+<view class="item1">
+  <image src="/images/number.png" class="icon"></image>
+	<input class="input" name="password" placeholder="请输入证件号" 
   bindinput="passwordInput"/>
 </view>
-<view class="itemView" style="margin-top:20px">手机号:
-  <input class="input" name="mobile" placeholder="请输入手机号" 
+
+<view class="item1">
+  <image src="/images/phone.png" class="icon"></image>
+	<input class="input" name="mobile" placeholder="请输入手机号" 
   bindinput="mobileInput"/>
 </view>
 
-<view class="btnView">
-  <button class="login_btn" bindtap="login_btn_click">登录</button>
-  <button class="delete_btn" bindtap="delete_btn_click">删除</button>
-</view>
+<button class="login_btn" bindtap="login_btn_click">登录</button>
+
 
 <view>{{username}}</view>
 <view>{{password}}</view>
 
-<!--<modal hidden="{{modalHidden}}" title="请输入用户名和密码" confirm-text="确定" 
- cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
-</modal>-->

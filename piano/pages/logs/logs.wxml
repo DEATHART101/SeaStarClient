@@ -1,45 +1,46 @@
 <!--logs.wxml-->
 <!--点击登录就可以跳转到选择不同身份登录界面-->
 <view class="user_login">
-  <image src="/images/login.png" class = "user_login_image" bindtap="loginBtn"></image>
+  <image src="/images/login_white.png" class = "user_login_image" bindtap="loginBtn"></image>
 </view>
 
-<view class="middle"></view>
+<view class="item" bindtap="my_info_btn">
+	<image src="/images/my/my_message.png" class="icon"></image>
+  <text class="title">我的信息</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
 
-<!--其余按钮-->
-<view class="info">
-      <view class="info-btn info_image" bindtap="my_info_btn">
-        <image src="/images/my/my_message.png" class="info_image"></image>
-        <view class="title">我的信息</view>
-      </view>
-    
-      <view class="info-btn info_image" bindtap="modify_info_btn">
-        <image src="/images/my/modify_message.png" class="info_image"></image>
-        <view class="title">修改信息</view>
-      </view>
-    
-    
-      <view class="info-btn info_image" bindtap="now_order_btn">
-        <image src="/images/my/now_order.png" class = "info_image" ></image>
-        <view class="title">当前预约</view>
-      </view>
+<view class="item2" bindtap="modify_info_btn">
+	<image src="/images/my/modify_message.png" class="icon"></image>
+  <text class="title">修改信息</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
 
-      <view class="info-btn info_image" bindtap="previous_order_btn">
-        <image src="/images/my/previous_order.png" class = "info_image" ></image>
-        <view class="title">历史预约</view>
-      </view>
+<view class="item2" bindtap="now_order_btn">
+	<image src="/images/my/now_order.png" class="icon"></image>
+  <text class="title">当前预约</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
 
-      <view class="info-btn info_image" bindtap="notify_btn">
-        <image src="/images/dingdan.png" class = "info_image" ></image>
-        <view class="title">我的订单</view>
-      </view>
+<view class="item2" bindtap="previous_order_btn">
+	<image src="/images/my/previous_order.png" class="icon"></image>
+  <text class="title">历史预约</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
 
-      <view class="info-btn info_image" bindtap="longtime_order_btn">
-        <image src="/images/my/longtime_order.png" class = "info_image" ></image>
-        <view class="title">长期预约</view>
-      </view>
-   
-  </view>
+<view class="item2" bindtap="notify_btn">
+	<image src="/images/dingdan.png" class="icon"></image>
+  <text class="title">我的订单</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
+
+<view class="item2" bindtap="longtime_order_btn">
+	<image src="/images/my/longtime_order.png" class="icon"></image>
+  <text class="title">长期预约</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
+
+
   
 
 

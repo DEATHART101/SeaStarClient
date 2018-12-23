@@ -15,11 +15,12 @@
 }*/
 
 .user_login {
-  height: 200rpx;
+  height: 250rpx;
   width: 100%;
   overflow: hidden;
   position: relative;
   display: top;
+  background: #000000;
 }
 
 .user_login_image {
@@ -28,7 +29,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25rpx;
+  margin-top: 65rpx;
 }
 
 /*.user_nick_name{
@@ -42,63 +43,42 @@
     text-align: center
 }*/
 
-.middle {
+.item {
   width: 100%;
+  margin-top: 100rpx;
+  height: 70rpx;
+  background:#FFFFFF;
+  vertical-align: middle;
+  display: flex;
+  border-top: 2rpx solid #DCDCDC;
+  border-bottom: 2rpx solid #DCDCDC;
+}
+
+.item2 {
+  width: 100%;
+  height: 70rpx;
+  background:#FFFFFF;
+  vertical-align: middle;
+  display: flex;
+  border-top: 2rpx solid #DCDCDC;
+  border-bottom: 2rpx solid #DCDCDC;
+}
+
+.icon {
+  width: 40rpx;
   height: 40rpx;
-  background-color: #FFFFFF;
-  margin-bottom: 30rpx;
-}
-
-/*我的页面其他六个按钮*/
-.info {
-  width: 100%;
-  margin: 0 auto 1em;
-  height: 80%;
-  padding: 1%;
-}
-
-.info .info-btn {
-  float: left; 
-  margin:5% 5% ;
-  line-height: 40rpx;
-  border-radius: 10rpx;
-  /*width: 40%;*/
-  vertical-align: middle;
-}
-.info .info-btn .title {
-  font-size: 30rpx;
-  /*float: left;*/
-  /*margin:18% 2% 2% 5%;*/
-  font-weight: bold;
-  color: #6495ED;
-  margin-top: 10rpx;
-  margin-left: 80rpx;
-  vertical-align: middle;
-}
-.info .info-btn.info_image {
-  background-color:#FFFFFF; 
-  border-top: 3rpx solid #F5F5F5;
-  border-bottom: 3rpx solid #F5F5F5;
-  border-right: 3rpx solid #F5F5F5;
-  border-left: 3rpx solid #F5F5F5;
-  width:38%;
-  margin-left: 40rpx;
+  /*display: inline-block;*/
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
   vertical-align: middle;
 }
 
-.info .info-btn image {
-  /*display: block; */
-  width: 100rpx;
-  height: 100rpx;
-  /*float: right;*/
-  background-size: 20% auto;
-  /*margin:5% 5% 0 0;*/
-  background-position: center;
-  /*background-color: #FFFFFF;
-  border-radius: 50%;*/
-  background-repeat: no-repeat;
-  margin-left: 95rpx;
+.title {
+  color:#000000;
+  vertical-align: middle;
+  width: 80%;
+  font-size:35rpx;
+  padding-top: 2%;
 }
-
-
 

@@ -10,6 +10,6 @@
 }
 
 page {
-  background-color: rgb(241, 239, 239);
+  background-color: rgb(243, 243, 243);
   height:100%;
 }
