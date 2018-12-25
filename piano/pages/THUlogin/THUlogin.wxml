@@ -4,13 +4,13 @@
 
 <view class="item">
   <image src="/images/number.png" class="icon"></image>
-	<input class="input" name="username" placeholder="请输入学号/教室工号" 
+	<input class="input" type="number" name="username" focus placeholder="请输入学号/教室工号" 
   bindinput="usernameInput"/>
 </view>
 
 <view class="item1">
   <image src="/images/passwd.png" class="icon"></image>
-	<input class="input" name="password" placeholder="请输入密码" 
+	<input class="input" name="password" password type="text" placeholder="请输入密码" 
   bindinput="passwordInput"/>
 </view>
 

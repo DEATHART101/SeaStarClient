@@ -20,70 +20,179 @@
   margin-top: 200px;
 }**/
 
-.image {
-  width: 100%;
-  height: 250rpx;
-  display: top;
+/*顶部导航栏*/
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.item {
+.deteil{
   width: 100%;
-  margin-top: 100rpx;
-  height: 70rpx;
+  height: 100%;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #FFFFFF;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+/*选中的字*/
+.navbar .item.active{
+  color: #1E90FF;
+}
+/*选中出现的下划线*/
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #1E90FF;
+}
+
+
+/*左侧导航栏*/
+.overflow {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 100%;
+}
+
+.content {
+display: flex;
+width: 100%;
+position: absolute;
+/*bottom: 0rpx;*/
+left: 0;
+height: 100%;
+overflow: hidden;
+}
+
+/*没被选中的框*/
+.menu-container {
+width: 180rpx;
+flex: 0 0 180rpx;
+background: #F6F6F6;
+}
+.detail-container {
+flex: 1;
+height: 100%;
+}
+
+.scroll-view {
+width: 100%;
+height: 100%;
+}
+.scroll-view-ul {
+width: 100%;
+height: 100%;
+}
+/*左侧每个框*/
+.scroll-view-item {
+/*height: 210rpx;*/
+height: 260rpx;
+width: 100%;
+font-size: 24rpx;
+color: #666;
+border-left: 8rpx solid transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.scroll-view-item:after {
+content: '';
+left: 0;
+right: 0;
+bottom: 0;
+height: 1px;
+background-color: #dfdfdf;
+transform: scaleY(0.5);
+position: absolute;
+}
+.active {
+background: #ffffff;
+color: #1E90FF;
+}
+
+/*右侧*/
+/*左右之间的分割线*/
+.market-scroll-list {
+height: 100%;
+
+}
+/*右侧每个框*/
+.inner {
+display: flex;
+padding: 10rpx;
+position: relative;
+height: 250rpx;
+}
+/*右侧每个框之间的线*/
+.inner:after {
+  content: '';
+  left: 30rpx;
+  right: 0;
+  bottom: 0;
+  height: 3rpx;
+  background-color: #DFDFDF;
+  transform: scaleY(0.5);
+  position: absolute;
+}
+.btn {
+  width: 100rpx;
+  height: 50rpx;
+  float: right;
+  font-size: 22rpx;
+  text-align: center;
+}
+.info {
+  flex: 1;
+  padding: 0 30rpx;
+  font-size: 0;
+  width: 100%;
+}
+  .info-date {
+    color: #333;
+    font-size: 22rpx;
+  }
+  .info-pianoroom_number {
+    color: #333;
+    font-size: 22rpx;
+    margin-top: 10rpx;
+  }
+  .info-time {
+    color: #333;
+    font-size: 22rpx;
+    margin-top: 10rpx;
+  }
+  .info-price {
+    color: #333;
+    font-size: 22rpx;
+    margin-top: 10rpx;
+  }
+  .info-people_number {
+    color: #333;
+    font-size: 22rpx;
+    margin-top: 10rpx;
+  }
   
-  background:#FFFFFF;
-  /*align-items: center;*/
-  vertical-align: middle;
-  display: flex;
-  border-top: 2rpx solid #DCDCDC;
-  border-bottom: 2rpx solid #DCDCDC;
-}
 
-.item1 {
-  width: 100%;
-  /*margin-top: 100rpx;*/
-  height: 70rpx;
-  background:#FFFFFF;
-  /*align-items: center;*/
-  vertical-align: middle;
-  display: flex;
-  border-top: 2rpx solid #DCDCDC;
-  border-bottom: 2rpx solid #DCDCDC;
-}
-
-.item2 {
-  width: 100%;
-  /*margin-top: 10rpx;*/
-  height: 70rpx;
-  background:#FFFFFF;
-  /*align-items: center;*/
-  vertical-align: middle;
-  display: flex;
-  border-top: 2rpx solid #DCDCDC;
-  border-bottom: 2rpx solid #DCDCDC;
-}
-
-.icon {
-  width: 40rpx;
-  height: 40rpx;
-  /*display: inline-block;*/
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 2%;
-  vertical-align: middle;
-}
-
-.title {
-  color:#000000;
-  vertical-align: middle;
-  width: 80%;
-  font-size:35rpx;
-  padding-top: 2%;
-}
-
-
-
-
+    /*.text {
+    position: absolute;
+    bottom: 0;
+    font-size: 22rpx;
+    color: #666;
+  }*/
 
 
 

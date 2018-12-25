@@ -3,6 +3,7 @@ Page({
   data: {
     username:'',
     password:'',
+    mobile:'',
     modalHidden:true,
     show:false,
     buttonDisabled:false
@@ -17,6 +18,11 @@ Page({
       this.setData({
           password:e.detail.value
       })
+  },
+  mobileInput: function (e) {
+    this.setData({
+      mobile: e.detail.value
+    })
   },
   /*login_btn_click:function(){
       if(this.data.username.length==0 || this.data.password.length==0){

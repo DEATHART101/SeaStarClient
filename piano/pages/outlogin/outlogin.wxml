@@ -4,19 +4,19 @@
 
 <view class="item">
   <image src="/images/ID.png" class="icon"></image>
-	<input class="input" name="username" placeholder="请输入姓名" 
+	<input class="input" type="text" name="username" focus placeholder="请输入姓名" 
   bindinput="usernameInput"/>
 </view>
 
 <view class="item1">
   <image src="/images/number.png" class="icon"></image>
-	<input class="input" name="password" placeholder="请输入证件号" 
+	<input class="input" name="password" type="idcard" placeholder="请输入证件号" 
   bindinput="passwordInput"/>
 </view>
 
 <view class="item1">
   <image src="/images/phone.png" class="icon"></image>
-	<input class="input" name="mobile" placeholder="请输入手机号" 
+	<input class="input" name="mobile" type="number" placeholder="请输入手机号" 
   bindinput="mobileInput"/>
 </view>
 
