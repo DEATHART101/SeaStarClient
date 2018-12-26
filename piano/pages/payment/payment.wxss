@@ -1,0 +1,33 @@
+.frame {
+    margin-top: 300rpx;
+    margin-left: 20%;
+    margin-right: 20%; 
+    height: 28%;
+    background-color: #dfdfdf;
+    text-align: center;
+    border-width: 50rpx;
+    border-color: #000000;
+}
+
+.message {
+  text-align: center;
+   font-size: 45rpx;
+   margin-top: 100rpx; 
+}
+
+.btn {
+    margin-top: 70rpx;
+    
+    width: 180rpx;
+    height: 70rpx;
+    font-size: 35rpx;
+    text-align: center;
+}
+.btn1 {
+    margin-top: 50rpx;
+    
+    width: 180rpx;
+    height: 70rpx;
+    font-size: 35rpx;
+    text-align: center;
+}

@@ -34,7 +34,7 @@ Page({
   //时间选择后确认按钮
   ok_btn: function () {
     wx.navigateTo({
-      
+      url: '../payment/payment'
     })
   },
 })

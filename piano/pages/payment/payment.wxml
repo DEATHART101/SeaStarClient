@@ -1,0 +1,7 @@
+<view class="frame">
+  <view class="message">您需支付：{{money}} RMB</view>
+  
+    <button class="btn" bindtap="cancel">取消</button>
+    <button class="btn1" bindtap="payment">支付</button>
+  
+</view>

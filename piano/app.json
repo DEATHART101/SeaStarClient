@@ -7,7 +7,8 @@
     "pages/THUlogin/THUlogin",
     "pages/outlogin/outlogin",
     "pages/LoginOk/LoginOk",
-    "pages/choose_time_order/choose_time_order"
+    "pages/choose_time_order/choose_time_order",
+    "pages/payment/payment"
   ],
   "window":{
     "backgroundTextStyle":"light",
