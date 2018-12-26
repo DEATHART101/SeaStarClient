@@ -3,28 +3,24 @@
     margin-left: 20%;
     margin-right: 20%; 
     height: 28%;
-    background-color: #dfdfdf;
+    background-color: #fbfcfd;
     text-align: center;
-    border-width: 50rpx;
-    border-color: #000000;
+    border-bottom: 2rpx solid #bebec0;
+    border-left: 2rpx solid #bebec0;
+    border-right: 2rpx solid #bebec0;
+    border-top: 2rpx solid #bebec0;
 }
 
 .message {
   text-align: center;
    font-size: 45rpx;
-   margin-top: 100rpx; 
+   padding-top: 10rpx; 
+   padding-bottom: 15rpx;
+   border-bottom: 2rpx solid #000000;
 }
 
 .btn {
-    margin-top: 70rpx;
-    
-    width: 180rpx;
-    height: 70rpx;
-    font-size: 35rpx;
-    text-align: center;
-}
-.btn1 {
-    margin-top: 50rpx;
+    margin-top: 45rpx;
     
     width: 180rpx;
     height: 70rpx;
