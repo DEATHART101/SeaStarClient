@@ -108,7 +108,9 @@ Page({
   
   //琴房预约按钮,跳转函数
   order_btn: function () {
-
+    wx.navigateTo({
+      url: '../choose_time_order/choose_time_order'
+    })
   },
 
   change(e) {

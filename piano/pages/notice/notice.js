@@ -19,26 +19,10 @@ Page({
     dataList:[
        {
         notice_title:'公告：',                 /*公告标题 */
-        notice_content: '因施工暂停使用琴房。',   /*公告内容 */
-        notice_name: '清华艺教中心',              /*（公告署名）：清华艺教中心 */
-        notice_time: '2018-10-1',                 /*公告时间 */
-          
+        notice_content: '',   /*公告内容 */    
       },  
-
-      
     ],
-
-    
- 
-},
-    
-      
-        
-    
-    
-
-    
- 
+  },   
 })
 
 

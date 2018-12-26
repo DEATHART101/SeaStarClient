@@ -42,21 +42,7 @@ navigator{
   font-size:30rpx;
 }
  
-.list .list_item .piano_info .name{
-  position: absolute;
-  left:0rpx;
-  bottom:10rpx;
-  color:#000000;
-  margin-left:10rpx;
-  font-size:30rpx;
-}
 
-.list .list_item .piano_info .time{
-  position: absolute;
-  margin-left:10rpx;
-  margin-top:10rpx;
-  font-size:30rpx;
-}
 
 
 

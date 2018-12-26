@@ -1,0 +1,13 @@
+.section{
+   background:#dfdfdf;
+   margin:20rpx;
+   padding:20rpx
+}
+
+.btn{
+  margin-right: 20rpx;
+  width: 180rpx;
+  height: 70rpx;
+  font-size: 35rpx;
+  text-align: center;
+}
