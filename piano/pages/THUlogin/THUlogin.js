@@ -18,13 +18,7 @@ Page({
           passwd:e.detail.value
       })
   },
-  /*login_btn_click:function(){
-      if(this.data.username.length==0 || this.data.password.length==0){
-          this.setData({
-            modalHidden:!this.data.modalHidden
-        })
-      }
-  },*/
+  
   login_btn_click:function(){
       if(this.data.id.length == 0 || this.data.passwd.length == 0){
         wx.showToast({
@@ -37,6 +31,7 @@ Page({
         wx.navigateTo({
         url:'../LoginOk/LoginOk'
         })
+
       }
    },
   

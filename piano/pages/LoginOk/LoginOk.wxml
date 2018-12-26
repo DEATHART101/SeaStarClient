@@ -11,7 +11,7 @@
       <view class='user_info'>
         <view class='title'>用户：{{title}}</view>
         <view class='id'>证件号：{{id}}</view>
-        <button class="ok" bindtap="ok_info">确认</button>
+        <button class="ok" bindtap="okinfo">确认</button>
       </view>
      
       <view class='clear'></view>
