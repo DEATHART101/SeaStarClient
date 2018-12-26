@@ -23,6 +23,5 @@
 <button class="login_btn" bindtap="login_btn_click">登录</button>
 
 
-<view>{{username}}</view>
-<view>{{password}}</view>
+
 

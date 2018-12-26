@@ -4,7 +4,7 @@
 
 <view class="item">
   <image src="/images/number.png" class="icon"></image>
-	<input class="input" type="number" name="id"  placeholder="请输入学号/教室工号" 
+	<input class="input" type="number" name="id"  focus placeholder="请输入学号/教室工号" 
   bindinput="usernameInput"/>
 </view>
 
@@ -18,8 +18,7 @@
 <button class="login_btn" bindtap="login_btn_click">登录</button>
 
 
-<view>{{username}}</view>
-<view>{{password}}</view>
+
 
 
 

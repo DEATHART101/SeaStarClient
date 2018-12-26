@@ -6,9 +6,7 @@
 
 4.pages/notice:“公告”
 
-5.pages/OthersOrder:普通用户预约
 
-6.pages/THUteamOrder:清华特殊团体预
 
 
 8.pages/outlogin:用户登录

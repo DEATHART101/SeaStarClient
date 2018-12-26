@@ -32,20 +32,19 @@ Page({
       }
   },*/
   login_btn_click:function(){
-    wx.navigateTo({
-      url:'../LoginOk/LoginOk'
-    })
+    if(this.data.userName.length == 0 || this.data.passwd.length == 0 
+      || this.data.mobile.length == 0){
+        wx.showToast({
+            title: '请输入信息！',
+            icon: 'loading',
+            duration: 1000,
+        })
+    }
+    else{ 
+        wx.navigateTo({
+            url:'../LoginOk/LoginOk'
+        })
+    }
   },
-  /*confirm:function(){
-      this.setData({
-            modalHidden:!this.data.modalHidden,
-            show:!this.data.show,
-            buttonDisabled:!this.data.modalHidden
-      })
-  },
-  cancel:function(){
-      this.setData({
-            modalHidden:!this.data.modalHidden
-      })
-  }*/
+ 
 })
