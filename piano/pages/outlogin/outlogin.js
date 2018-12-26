@@ -1,8 +1,8 @@
 var app = getApp()
 Page({
   data: {
-    username:'',
-    password:'',
+    userName:'',
+    passwd:'',
     mobile:'',
     modalHidden:true,
     show:false,
@@ -11,12 +11,12 @@ Page({
   //事件处理函数
   usernameInput:function(e){
       this.setData({
-          username:e.detail.value
+          userName:e.detail.value
       })
   },
   passwordInput:function(e){
       this.setData({
-          password:e.detail.value
+          passwd:e.detail.value
       })
   },
   mobileInput: function (e) {

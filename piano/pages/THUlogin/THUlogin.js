@@ -1,8 +1,8 @@
 var app = getApp()
 Page({
   data: {
-    username:'',
-    password:'',
+    id:'',
+    passwd:'',
     modalHidden:true,
     show:false,
     buttonDisabled:false
@@ -10,12 +10,12 @@ Page({
   //事件处理函数
   usernameInput:function(e){
       this.setData({
-          username:e.detail.value
+          id:e.detail.value
       })
   },
   passwordInput:function(e){
       this.setData({
-          password:e.detail.value
+          passwd:e.detail.value
       })
   },
   /*login_btn_click:function(){

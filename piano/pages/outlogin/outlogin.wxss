@@ -33,7 +33,7 @@
   vertical-align: middle;
 }
 
-input{
+.input{
     width: 60%;
     margin-left:10%;
     font-size: 35rpx;

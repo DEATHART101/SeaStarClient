@@ -4,13 +4,13 @@
 
 <view class="item">
   <image src="/images/ID.png" class="icon"></image>
-	<input class="input" type="text" name="username" focus placeholder="请输入姓名" 
+	<input class="input" type="text" name="userName" focus placeholder="请输入姓名"  
   bindinput="usernameInput"/>
 </view>
 
 <view class="item1">
   <image src="/images/number.png" class="icon"></image>
-	<input class="input" name="password" type="idcard" placeholder="请输入证件号" 
+	<input class="input" name="passwd" type="idcard" placeholder="请输入证件号" 
   bindinput="passwordInput"/>
 </view>
 
