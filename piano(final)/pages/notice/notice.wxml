@@ -1,0 +1,24 @@
+<import src="notice_list.wxml"/>
+
+<view class='news_page'>
+
+
+    <view wx:if="{{notice_list.length>0}}">
+        <view class='notice_list' wx:for="{{notice_list}}" wx:key="">
+            <template is="notice_list" data="{{...item}}"/>
+        </view>
+    </view>
+    <view wx:else class='list_empty'>暂无公告</view>
+    <view wx:if="{{news_view}}">
+        <view class='beijing' bindtap='hidenewsView'></view>
+        <view class="news_detail_view" animation="{{animation_data}}">
+            <view class='news_detail_title'>{{news_detail.news_title}}</view>
+            <view class='content'></view>
+            <view class='news_detail_publish_time'>
+                <text>{{news_detail.publish_time}}</text>
+            </view>
+            <textarea class='message_content' maxlength='1000' value='{{news_detail.news_content}}' disabled='true'/>
+            <view class='news_detail_view_button' bindtap='hidenewsView'>关闭详情</view>
+        </view>
+    </view>
+</view>

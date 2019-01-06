@@ -1,0 +1,234 @@
+@import "room_item.wxss";
+
+.beijing0{
+  height: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -1;
+}
+
+.list_page {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rpx 0;
+  box-sizing: border-box
+}
+
+.page-section{
+  margin-bottom: 20rpx;
+}
+.navbar {
+  flex: none;
+  display: flex;
+  background: #FFFFFF;
+}
+.middle1{
+  width: 30%;
+}
+.middle0{
+  width: 50rpx;
+}
+.type_item {
+  text-align: center;
+  width: 100%;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+.select_type {
+  color: #1E90FF;
+  box-sizing: content-boxs;
+  border-bottom: 2rpx solid;
+  padding-bottom: 6rpx;
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+}
+.unselect_type{
+  color: #000000;
+  box-sizing: content-boxs;
+  padding-bottom: 6rpx;
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+}
+
+.container {
+  margin-top: 10rpx;
+  padding-top: 10rpx;
+  width: 450rpx;
+  height:30%;
+  text-align: center;
+  margin-left: 20%;
+  margin-right:20%;
+  border-top: 5rpx solid #DCDCDC;
+  border-bottom: 5rpx solid #DCDCDC;
+  border-right: 5rpx solid #DCDCDC;
+  border-left: 5rpx solid #DCDCDC;
+}
+.te {
+  height:10rpx;
+  text-align: center; 
+  width:450rpx;
+  margin-top:10rpx;
+  margin-bottom: 80rpx;
+}
+.date_list{
+  text-align: center;
+  padding-bottom: 5rpx;
+  font-size: 35rpx;
+  
+}
+.icon{
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  object-fit: cover;
+  height: 30rpx;
+  width: 30rpx;
+}
+
+.room_list{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.order_info{
+  z-index: 4;
+  position: fixed;
+  width:40%;
+  height: 60%;
+  background-color: white;
+  border: 1rpx solid #AAAAAA;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+
+.beijing{
+  position: fixed;
+  top: 0%;
+  left:0%;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color:#606060;
+  opacity: 0.2;
+}
+
+.order_name{
+  margin-top: 10%;
+  margin-left: 15%;
+  height: 15%;
+  width: 70%;
+  text-align: center;
+  font-size: 50rpx;
+  border-bottom: 5rpx solid #000000;
+}
+
+.order_room_num{
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  font-size: 40rpx;
+}
+
+.order_date{
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  font-size: 40rpx;
+}
+
+.order_time{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  font-size: 40rpx;
+}
+
+.order_price{
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  font-size: 40rpx;
+}
+.order_complete{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+}
+
+.grey{
+  color:#AAAAAA;
+}
+
+.purple{
+  color:#000000;
+}
+
+.time_picker{
+  border-radius: 10rpx;
+  border: 1rpx solid #AAAAAA;
+  width:30%;
+  font-size: 35rpx;
+  text-align: center;
+  color : #AAAAAA;
+}
+
+
+
+.find_time_content{
+  /*margin-top: 20%;
+  display: flex;
+  margin-left: 15%;
+  flex-direction: row;
+  margin-right: 10%;*/
+  margin-top: 30%;
+  width:100%;
+  height: 50%;
+}
+.choosetime{
+  top:50rpx;
+  width:100%;
+  height:200rpx;
+  margin-bottom:20rpx;
+}
+.title {
+  font-size: 35rpx;
+  width: 100%;
+  height: 30rpx;
+  margin-bottom: 20rpx;
+}
+.search_time_picker{
+  text-align: center;
+  background-color: white;
+  border-radius: 20rpx;
+  border:2rpx solid #AAAAAA;
+  width: 100%;
+  color: #AAAAAA;
+  margin-left: 4rpx;
+  margin-right: 4rpx;
+  margin-top:20rpx;
+}
+
+
+
+.search_btn1{
+  position: fixed;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 25rpx;
+  font-size: 35rpx;
+  width: 50%;
+  height: 70rpx;
+  color: #000000;
+}
+

@@ -1,0 +1,24 @@
+<view class="mine">
+    <view class="top_bg"></view>
+    <view wx:if="{{!hasUserInfo && canIUse}}">
+        <view class="userinfo">
+            <image class="userinfo-avatar" src="/images/login_white.png" mode="cover"></image>
+            <button class='getUserInfo' open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像</button>
+        </view>
+    </view>
+    <view wx:else>
+        <view class="userinfo">
+            <block>
+                <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+                <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+            </block>
+        </view>
+    </view>    
+
+<view class="item" bindtap="dingdan_btn">
+	<image src="/images/my/dingdan.png" class="icon"></image>
+  <text class="title">我的订单</text>
+  <image src="../../images/open.png" class="icon"></image>
+</view>
+    
+</view>

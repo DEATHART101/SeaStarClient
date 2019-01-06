@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/sea/sea",
+    "pages/me/me",
+    "pages/orderinfo/orderinfo",
+    "pages/myorder/myorder",
+    "pages/index/index",
+    "pages/notice/notice"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "海星预约",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor":"#000000",
+    "color":"#FFFFFF",
+    "position":"bottom",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [{
+        "pagePath": "pages/sea/sea",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_selected.png",
+        "text": "首页"
+      },{
+        "pagePath": "pages/me/me",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_selected.png",
+        "text": "我的"
+      },{
+        "pagePath": "pages/notice/notice",
+        "iconPath":"images/remind.png",
+        "selectedIconPath":"images/remind_selected.png",
+        "text":"公告"
+      }
+    ]
+  }
+}

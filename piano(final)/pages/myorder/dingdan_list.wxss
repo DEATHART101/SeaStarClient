@@ -1,0 +1,84 @@
+/**other**/
+.dingdan{
+  display: flex;
+  flex-direction: row;
+  height:240rpx;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+  width:80%;
+  border:none;
+  border-radius:5rpx;
+  box-shadow:0px 0px 8px #C7C7C7;
+}
+
+.order_piano_info0{
+  width: 45%;
+  height: 180rpx;
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+}
+
+.order_piano{
+  font-size: 35rpx;
+}
+
+.order_date{
+  font-size: 25rpx;
+  color: #AAAAAA;
+  margin-top: 15rpx;
+}
+
+.order_time{
+  font-size: 25rpx;
+  color: #AAAAAA;
+  margin-top: 15rpx;
+
+}
+
+.order_status{
+  font-size: 25rpx;
+  color: #AAAAAA;
+  margin-top: 15rpx;
+}
+
+.order_piano_info1{
+  height: 180rpx;
+  margin-top: 25rpx;
+  text-align: center;
+}
+
+.room_num{
+  font-size: 35rpx;
+  color: #AAAAAA;
+}
+
+.order_price{
+  font-size: 40rpx;
+  color: #000000;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.order_op{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20%;
+  font-size: 25rpx;
+  text-align: right;
+}
+
+
+.reachable{
+  color: #000000;
+  margin-left: 12%;
+}
+
+.unreachable{
+  color: #AAAAAA;
+  margin-left: 12%;
+}
+
+.abnormal_cancel{
+  color: #000000;
+}

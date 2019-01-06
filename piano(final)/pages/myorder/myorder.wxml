@@ -1,0 +1,24 @@
+<import src="dingdan_list.wxml"/>
+<view class='dingdan'>
+    <view class="navbar">
+      <view class="middle"></view>
+        <view wx:for="{{order_status_list}}" class='type_item' wx:key="" bindtap='orderType' id='{{index}}'>
+            <view class="middle"></view>
+            <view wx:if="{{select_status == index}}" class='select_type'>{{item}}</view>
+            <view wx:else class='order_type'>{{item}}</view>
+            <view class="middle"></view>
+        </view>      
+    </view>
+
+
+    <view wx:if="{{select_order_list.length>0}}">
+        <view class='order_list' wx:for="{{select_order_list}}" wx:key="">
+            <template is="dingdan" data="{{...item}}"/>
+        </view>
+    </view>
+
+    <view wx:else class='null_order_list'>
+        暂无订单
+    </view>
+
+</view>

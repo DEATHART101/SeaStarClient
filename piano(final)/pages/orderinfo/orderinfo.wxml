@@ -1,0 +1,79 @@
+<view class='order_page'>
+    <view class="order_title">
+        <image src='/image/icon/left-arrow.png' class='icon' mode='widthFix' bindtap='toOrderPage'></image>
+        <view class="page_name">订单详情</view>
+        <view class='empty_item'></view>
+    </view>
+    <view class='order_info'>
+        <view class="info_block1">
+            <view class='left_1'>
+                <view class='info_piano_type'>{{info.piano_type}}</view>
+                <view class='info_room_num'>{{info.room_num}}</view>
+            </view>
+            <view class='right_1'>
+                <view class='info_order_status'>{{info.order_status}}</view>
+                <view class='info_order_price'>￥{{info.price}}</view>
+            </view>
+        </view>
+        <view class='info_block2'>
+            <image class='qrcode' src='{{info.qrcode}}' mode='widthFix'></image>
+        </view>
+        <view class='info_block3'>
+            <view class='info_order_id'>
+                <view class='info_label'>支付时间：</view>
+                <textarea class="order_id_text" value='{{last_pay_time}}' disabled='true'></textarea>
+            </view>
+
+            <view class='info_order_id'>
+                <view class='info_label'>订单编号：</view>
+                <textarea class="order_id_text" value='{{info.order_id}}' disabled='true'></textarea>
+            </view>
+
+            <view class='info_order_id'>
+                <view class='info_label'>预约人：</view>
+                <textarea class="order_id_text" value='{{info.user_id}}' disabled='true'></textarea>
+            </view>
+
+            <view class='info_order_id'>
+                <view class='info_label'>日期：</view>
+                <textarea class="order_id_text" value='{{info.date}}' disabled='true'></textarea>
+            </view>
+
+           
+
+            <view wx:if="{{edit}}" class='info_order_time'>预约时间：
+                <picker class='start_picker' mode="selector" range='{{starttime_list}}' bindchange='setOrderStart'>
+                    {{start_time}}
+                </picker>
+                ~
+                <picker class='end_picker' mode="selector" range='{{endtime_list}}' bindchange='setOrderEnd'>
+                    {{end_time}}
+                </picker>
+            </view>
+            <view wx:else class='info_order_time'>预约时间：
+                <text class='info_order_time_text'>{{start_time}}</text>
+                ~
+                <text class='info_order_time_text'>{{end_time}}</text>
+            </view>
+
+            <view class='info_order_op'>
+                <view class='info_pay' wx:if="{{info.status  == 1 && saved && valid}}" bindtap='prepareToPay'>支付</view>
+                <view class="info_pay" id='unreachable' wx:else>支付</view>
+                <view class='info_edit' wx:if="{{info.status  == 1 && !saved && valid}}" bindtap='changeOrder'>修改</view>
+                
+            </view>
+        </view>
+    </view>
+    
+    <view wx:if="{{pay_view}}">
+        <view class='masklayer' bindtap='hidePayView'></view>
+        <view class="cancel_view" animation="{{animation_data}}">
+            <image src='/image/icon/close_Icon.png' class='close_icon' bindtap='hidePayView'></image>
+            <view class='cancel_title'>确认支付 ?</view>
+            <view class='message_content'>支付后将无法更改和取消订单，请确认订单信息后点击确认</view>
+            <view class='pay_view_buttons'>
+                <form report-submit='true' bindsubmit='payOrder'><button class='pay_button confirm'form-type='submit'>确认</button></form>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,93 @@
+.info{
+  width:100%;
+}
+
+.room_item{
+  display: flex;
+  flex-direction: row;
+  height: 180rpx;
+  width: 100%;
+  margin-top: 7%;
+  border:none;
+  border-radius: 5rpx;
+  box-shadow:0px 0px 8px #C7C7C7;
+}
+
+
+
+.room_info{
+  display:flex;
+  margin-top:5%;
+}
+
+.room_name{
+  margin-left: 3%;
+  width:70%;
+  font-size:35rpx;
+}
+
+.room_info1{
+  text-align:right;
+  width:30%;
+  font-size:25rpx;
+  margin-right:10%;
+}
+
+.room_info2{
+  color:#AAAAAA;
+}
+
+.time_bar{
+  margin-top: 5%;
+  display:flex;
+}
+
+.bar_item{
+  height:10rpx;
+}
+
+.time_scaler{
+  display:flex;
+  position: relative;
+  flex-direction: row;
+  margin-top:0.75%;
+  margin-bottom: 0.75%;
+  width: 95%;
+}
+
+.scaler_item{
+  /* border-top:1rpx solid;
+  border-left:1rpx solid;
+  border-right:1rpx solid;
+  border-color:#AAAAAA; */
+  width: 100%;
+  font-size:18rpx;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.end_item{
+  /* border-top:1rpx solid;
+  border-left:1rpx solid;
+  border-right:1rpx solid;
+  border-color:#AAAAAA; */
+  font-size:18rpx;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.time_label{
+  object-fit: cover;
+  height: 7rpx;
+  width: 5rpx;
+}
+.hour_text{
+  margin-top: 4rpx;
+  position: absolute;
+  top: 0%;
+  color: white;
+}

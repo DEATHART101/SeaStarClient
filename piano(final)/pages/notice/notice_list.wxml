@@ -1,0 +1,7 @@
+<template name="notice_list">
+    <view class='notice_list' id='{{index}}' bindtap="newsDetail">
+        <view class='notice_title'>{{notice_title}}</view>
+        <view class='content'></view>
+        <view class='publish_time'> 发布时间：{{publish_time}}</view>
+    </view>
+</template>
